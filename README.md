@@ -1,5 +1,7 @@
 # One Sentence Changed. Who Gets Hit?
 
+**Live demo:** https://clause-impact-demo.vercel.app/
+
 An interactive **change-impact explorer** for a (fully fictional) regulation - the kind of
 question a regulatory-change monitoring product answers every day:
 
