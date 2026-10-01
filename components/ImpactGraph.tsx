@@ -48,8 +48,8 @@ export default function ImpactGraph({
     <svg className="graph" viewBox="0 0 920 560" role="img" aria-label="Impact graph">
       <defs>
         <radialGradient id="hub" cx="50%" cy="42%" r="65%">
-          <stop offset="0%" stopColor="#1d2a44" />
-          <stop offset="100%" stopColor="#101828" />
+          <stop offset="0%" stopColor="#ffffff" />
+          <stop offset="100%" stopColor="#e2e8f0" />
         </radialGradient>
       </defs>
 
@@ -71,7 +71,7 @@ export default function ImpactGraph({
       })}
 
       <g className="hub" transform={`translate(${CENTER.x}, ${CENTER.y})`}>
-        <circle r="52" fill="url(#hub)" stroke="#31415f" strokeWidth="1.5" />
+        <circle r="52" fill="url(#hub)" stroke="#64748b" strokeWidth="1.5" />
         <text textAnchor="middle" dy="-2" className="hub__code">
           {regulationCode}
         </text>
